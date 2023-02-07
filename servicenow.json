@@ -26,7 +26,7 @@
   },
   "security": [
     {
-      "basicAuth": []
+      "basicAuth": [admin,Servicenow1pw!]
     }
   ],
   "paths": {
