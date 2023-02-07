@@ -34,7 +34,7 @@
       "post": {
         "summary": "Create Incident",
         "description": "Create an incident with customer provided info.",
-        "operationId": "httpsdev93773ServiceNowComApiNowTableIncident",
+        "operationId": "httpsdev92236ServiceNowComApiNowTableIncident",
         "requestBody": {
           "content": {
             "application/json": {
@@ -99,7 +99,7 @@
               "Location": {
                 "schema": {
                   "type": "string",
-                  "example": "https://dev93773.service-now.com/api/now/table/incident/993e19ea1bfe8110309b4196bc4bcb54"
+                  "example": "https://dev92236.service-now.com/api/now/table/incident/993e19ea1bfe8110309b4196bc4bcb54"
                 }
               },
               "Pragma": {
@@ -198,7 +198,7 @@
                           "properties": {
                             "link": {
                               "type": "string",
-                              "example": "https://dev93773.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
+                              "example": "https://dev92236.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e"
                             },
                             "value": {
                               "type": "string",
@@ -371,7 +371,7 @@
                           "properties": {
                             "link": {
                               "type": "string",
-                              "example": "https://dev93773.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441"
+                              "example": "https://dev92236.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441"
                             },
                             "value": {
                               "type": "string",
@@ -480,7 +480,7 @@
                           "properties": {
                             "link": {
                               "type": "string",
-                              "example": "https://dev93773.service-now.com/api/now/table/sys_user_group/global"
+                              "example": "https://dev92236.service-now.com/api/now/table/sys_user_group/global"
                             },
                             "value": {
                               "type": "string",
@@ -565,7 +565,7 @@
                   }
                 },
                 "examples": {
-                  "https://dev93773.service-now.com/api/now/table/incident": {
+                  "https://dev92236.service-now.com/api/now/table/incident": {
                     "value": {
                       "result": {
                         "active": "true",
@@ -576,7 +576,7 @@
                         "approval_set": "",
                         "assigned_to": "",
                         "assignment_group": {
-                          "link": "https://dev93773.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e",
+                          "link": "https://dev92236.service-now.com/api/now/table/sys_user_group/287ebd7da9fe198100f92cc8d1d2154e",
                           "value": "287ebd7da9fe198100f92cc8d1d2154e"
                         },
                         "business_duration": "",
@@ -620,7 +620,7 @@
                         "number": "INC0010003",
                         "opened_at": "2022-04-14 13:52:09",
                         "opened_by": {
-                          "link": "https://dev93773.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441",
+                          "link": "https://dev92236.service-now.com/api/now/table/sys_user/6816f79cc0a8016401c5a33be04be441",
                           "value": "6816f79cc0a8016401c5a33be04be441"
                         },
                         "order": "",
@@ -648,7 +648,7 @@
                         "sys_created_by": "admin",
                         "sys_created_on": "2022-04-14 13:52:09",
                         "sys_domain": {
-                          "link": "https://dev93773.service-now.com/api/now/table/sys_user_group/global",
+                          "link": "https://dev92236.service-now.com/api/now/table/sys_user_group/global",
                           "value": "global"
                         },
                         "sys_domain_path": "/",
